@@ -7,5 +7,6 @@ or youtube-dl commands. i.e.
 
 `docker run -it -v ./myfiles:/myfiles dantheman39/ffmpeg /bin/bash`
 
-When building, if not using docker-compose, set `export DOCKER_DEFAULT_PLATFORM=linux/amd64`.
+When building on an M1 mac, if not using docker-compose, set
+`export DOCKER_DEFAULT_PLATFORM=linux/amd64`.
 This takes forever to compile so I didn't take the time to try compiling on arm.
