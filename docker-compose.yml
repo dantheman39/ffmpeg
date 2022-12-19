@@ -2,6 +2,5 @@ services:
   ffmpeg:
     build: .
     image: dantheman39/ffmpeg
-    platform: linux/amd64
     volumes:
       - "./output:output"
