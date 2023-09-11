@@ -74,7 +74,7 @@ RUN cd ~/ffmpeg_sources && \
   make install && \
   hash -r
 
-RUN pip install youtube-dl
+RUN pip install yt-dlp
 
 ENV PATH="/root/bin:$PATH"
 CMD ["echo", "Override the docker command with an ffmpeg or ffprobe command"]
